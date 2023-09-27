@@ -21,32 +21,50 @@
       * {
         font-family: "Poppins", sans-serif;
       }
-      .font-josefin{
-        font-family: 'Josefin Sans', sans-serif !important;
+      .font-josefin {
+        font-family: "Josefin Sans", sans-serif !important;
       }
     </style>
   </head>
   <body>
-
     <!-- Header for navbar and header banner -->
     <header>
-
       <!-- Navbar -->
       <div class="navbar max-w-5xl mx-auto mt-5 border-b-2 border-b-[#74DCDF]">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
             </label>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
               <li><a class="hover:font-semibold text-[#083038]">HOME</a></li>
               <li><a class="hover:font-semibold text-[#083038]">PAGES</a></li>
-              <li><a class="hover:font-semibold text-[#083038]">PORTFOLIO</a></li>
+              <li>
+                <a class="hover:font-semibold text-[#083038]">PORTFOLIO</a>
+              </li>
               <li><a class="hover:font-semibold text-[#083038]">BLOG</a></li>
-              <li><a class="hover:font-semibold text-[#083038]">CONTACTS</a></li>
+              <li>
+                <a class="hover:font-semibold text-[#083038]">CONTACTS</a>
+              </li>
             </ul>
           </div>
-          <img src="images/logo.png" alt="">
+          <img src="images/logo.png" alt="" />
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
@@ -58,34 +76,84 @@
           </ul>
         </div>
         <div class="navbar-end gap-5">
-          <a class="cursor-pointer"><img src="images/Search.png" alt=""></a>
-          <a class="cursor-pointer"><img src="images/Filter.png" alt=""></a>
+          <a class="cursor-pointer"><img src="images/Search.png" alt="" /></a>
+          <a class="cursor-pointer"><img src="images/Filter.png" alt="" /></a>
         </div>
       </div>
 
       <!-- Header banner -->
       <div class="max-w-5xl mx-auto pt-20 pb-20 lg:pb-40 text-center">
         <p class="text-[#00BFC4]">YOUR BUSINESS</p>
-        <hr class="border-b-2 border-b-[#00BFC4] w-14 mx-auto">
-        <h1 class="bg-gradient-to-r from-[#00788A] to-[#74DCDF] inline-block text-5xl lg:text-8xl font-black text-transparent bg-clip-text font-josefin lg:w-10/12">
+        <hr class="border-b-2 border-b-[#00BFC4] w-14 mx-auto" />
+        <h1
+          class="bg-gradient-to-r from-[#00788A] to-[#74DCDF] inline-block text-5xl lg:text-8xl font-black text-transparent bg-clip-text font-josefin lg:w-10/12"
+        >
           We execute our ideas from start to finish
         </h1>
-        <br>
-        <button class="btn bg-[#00bec4] hover:bg-white text-white hover:text-[#00BFC4] hover:border-[#00BFC4] mt-8 mb-4">Explore More</button>
-        <p class="text-[#43808C] border-b-2 border-b-[#43808C] w-24 font-josefin mx-auto">Watch Video</p>
+        <br />
+        <button
+          class="btn bg-[#00bec4] hover:bg-white text-white hover:text-[#00BFC4] hover:border-[#00BFC4] mt-8 mb-4"
+        >
+          Explore More
+        </button>
+        <p
+          class="text-[#43808C] border-b-2 border-b-[#43808C] w-24 font-josefin mx-auto"
+        >
+          Watch Video
+        </p>
       </div>
-
     </header>
 
     <!-- Main for main contents -->
     <main>
+      <!-- IT services section -->
+      <section class="bg-[#EAFBFF]">
+        <div class="max-w-5xl mx-auto py-48 flex gap-20">
+          <!-- Img part -->
+          <div class="w-2/5 ml-10 rounded-full overflow-hidden">
+            <img src="images/itService.jpg" alt="" />
+          </div>
 
+          <!-- Text part -->
+          <div class="w-1/2">
+            <p
+              class="text-[#00BFC4] font-semibold border-b-2 border-b-[#00BFC4] w-1/4"
+            >
+              About Us
+            </p>
+            <h3 class="text-4xl font-semibold font-josefin text-[#00788A] mt-3 mb-5">We Deal With The Aspects of Professional IT Services</h3>
+            <p class="text-xl leading-8 text-[#083038]">
+              Perferendis repudandae fugia rchitecto beatea rede svitae recusa
+              ndae debitifacere uiimi placeat maxienui
+            </p>
+            <div class="my-5">
+              <div class="flex items-center gap-3 p-4 bg-gradient-to-r from-[#FFFFFF00] to-[#FFFFFF] rounded-3xl w-3/4">
+                <img src="images/icons/experience.png" alt="">
+                <div>
+                  <h4 class="text-xl font-semibold text-[#00788A]">Experience</h4>
+                  <p class="text-xs text-[#083038]">
+                    Experience repudandae fugia rchitecto beatea rederit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="flex items-center gap-3 p-4 bg-gradient-to-r from-[#FFFFFF00] to-[#FFFFFF] rounded-3xl w-3/4">
+                <img src="images/icons/support.png" alt="">
+                <div>
+                  <h4 class="text-xl font-semibold text-[#00788A]">Quick Support</h4>
+                  <p class="text-xs text-[#083038]">
+                    Experience repudandae fugia rchitecto beatea rederit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer for contacts and social links -->
-    <footer>
-
-    </footer>
-
+    <footer></footer>
   </body>
 </html>
